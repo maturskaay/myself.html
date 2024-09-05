@@ -3,29 +3,88 @@
     <head>
         <meta charset="UTF-8">
         <title> WEEK 2 ASSIGNMENT</title>
-        <meta name="decription" content="Really want to talk about my self">
-        <link href="myself.css" rel="stylesheet">
+        <meta name="decription" content="Telemedicine">
+        <link rel="stylesheet" href="Telemedicine.css" >
     </head>
     <body>
-        <h1>I am a man of integrity and value.</h1>
-        <p>Most of my challenges in life tends to catapult me to my progress.</p>
+        <h1>FIND YOUR PREFERED DOCTOR HERE.</h1>
+        <p>DO YOU KNOW ABOUT YOUR HEALTH?.</p>
         <img height="700" width="600" src="LOGO.jpg" alt="SAMPLE PICTURE">
         <title>REGISTRATION FORM</title>
     </head>
-    
-        <h1>submit form</h1>
-<form action="submit.form.php"method="post">
-    <label for="name">First Name</label><br>
-    <input type="text" id="name"name="name" required><br><br>
+    <div class="form">
+        <h2>REGISTRATION FORM</h2>
+        <form action="#"method="post"><table><tr><th colspan="2">Personal Informations</th></tr>
+            <tr>
+                <td>Full name</td>
+                <td><input type="text"name="fullname"required></td>
+            </tr>
 
-    <label for="email">Email</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email"name="email"required></td>
+            </tr>
 
-    <label for="message"Message:></label>
-    <textarea id="message"name="message" rows="4" cols="50" required></textarea><br><br>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"name="password"required></td>
+            </tr>
 
-    <input type="submit" value="submit">
+            <tr>
+                <td>Phone number</td>
+                <td><input type="text" name="phone"required></td>
+            </tr>
+
+            <tr>
+                <td>Date Of Birth</td>
+                <td><input type="test" name="dob"placeholder="YYYY-MM-DD" required></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td><select name ="gender"required><option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="2">Medical Information</th>
+            </tr>
+            <tr>
+            <td>Medical History:</td>
+            <td><input type="text"name="medical_history"placeholder="Brief Medical History"></td>
+             </tr>
+              <tr>
+             <td>Current Medications:</td>
+             <td>Current Medications:</td>
+             <td><input type="text"name="Current_Medication"placeholder="List current medication"></td>
+            </tr>
+
+            <tr>
+                <td>Allergies:</td>
+                <td><input type="text"name="allergies"placeholder="List any allergies"></td>
+            </tr>
+
+            <tr>
+                <td>Preferred doctor:</td>
+                 <td><input type="text"name="Preferred_doctor"placeholder="Doctor's Name"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"
+                style="text-align:center,">
+            <input type="submit"
+            value="Register">
+            </td>
+
+            </tr>
+            
+</table>
 </form>
+</div>
+    
 
 <a href="www.google.com">visit google for more informationsS</a>
     
