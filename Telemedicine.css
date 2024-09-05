@@ -1,11 +1,10 @@
 *{
-    background-color: aquamarine;
+    background-color: aliceblue;
 }
 
 h1{
     float: center;
     text-align: center;
-    background-color: antiquewhite;
 }
 
 P{
@@ -15,3 +14,40 @@ P{
 .form{
     text-align: center;
 }
+
+form{
+    width:30%;
+    margin:0 auto;
+    font-size: 100%;
+    flex-direction: left;
+    border-style: groove;
+}
+/*in order to define width*/
+label,input{
+    display: inline-block;
+}
+
+label+input{
+    width:30%;
+    margin:0 30% 0 4%
+}
+
+input+input{
+    float:right;
+}
+
+img{
+    width: 1500px;
+    height: 400;
+}
+
+.filtered{
+    filter:contrast(80%)
+}
+.back{
+    background-color: beige;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
